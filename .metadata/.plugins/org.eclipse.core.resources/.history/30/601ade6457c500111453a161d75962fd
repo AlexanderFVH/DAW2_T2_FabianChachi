@@ -1,0 +1,5 @@
+package daw2.t2.fabianchachi.citas.config;
+
+public class RabbitMQConfig {
+
+}

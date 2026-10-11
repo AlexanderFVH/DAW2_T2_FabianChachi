@@ -2522,3 +2522,135 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was
 2026-10-11 03:35:05,636 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Fabian\Downloads\sad121\Nueva carpeta\microservicio-notificaciones\src\test\resources
 2026-10-11 03:39:55,023 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2026-10-11 03:43:05,938 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-10-11 03:45:15,963 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:api-gateway:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\api-gateway\pom.xml.
+2026-10-11 03:45:17,552 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:eureka-server:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\eureka-server\pom.xml.
+2026-10-11 03:45:18,748 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-citas:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\pom.xml.
+2026-10-11 03:45:19,884 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-notificaciones:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-notificaciones\pom.xml.
+2026-10-11 03:45:20,669 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-pacientes:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\pom.xml.
+2026-10-11 03:45:23,370 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-notificaciones/src/main/java
+2026-10-11 03:45:23,374 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/main/resources
+2026-10-11 03:45:23,375 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/main/resources
+2026-10-11 03:45:23,376 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-notificaciones/src/test/java
+2026-10-11 03:45:23,377 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/test/resources
+2026-10-11 03:45:23,936 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-pacientes/src/main/java
+2026-10-11 03:45:23,937 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/main/resources
+2026-10-11 03:45:23,938 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/main/resources
+2026-10-11 03:45:23,939 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-pacientes/src/test/java
+2026-10-11 03:45:23,940 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/test/resources
+2026-10-11 03:45:24,591 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-citas/src/main/java
+2026-10-11 03:45:24,592 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/main/resources
+2026-10-11 03:45:24,593 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/main/resources
+2026-10-11 03:45:24,594 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-citas/src/test/java
+2026-10-11 03:45:24,596 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/test/resources
+2026-10-11 03:45:25,214 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2026-10-11 03:45:25,216 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-10-11 03:45:25,217 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-10-11 03:45:25,217 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2026-10-11 03:45:25,218 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2026-10-11 03:45:25,828 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2026-10-11 03:45:25,829 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-10-11 03:45:25,830 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-10-11 03:45:25,831 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2026-10-11 03:45:25,832 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2026-10-11 03:45:26,520 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 5 project(s) in 16 sec
+2026-10-11 03:45:26,624 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-10-11 03:45:29,057 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:api-gateway:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\api-gateway\pom.xml.
+2026-10-11 03:45:29,836 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:eureka-server:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\eureka-server\pom.xml.
+2026-10-11 03:45:30,319 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-citas:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\pom.xml.
+2026-10-11 03:45:30,569 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-notificaciones:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-notificaciones\pom.xml.
+2026-10-11 03:45:30,696 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: daw2.t2.fabianchachi:microservicio-pacientes:0.0.1-SNAPSHOT @ C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\pom.xml.
+2026-10-11 03:45:32,724 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/main/java
+2026-10-11 03:45:32,725 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-10-11 03:45:32,726 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/main/resources
+2026-10-11 03:45:32,726 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-gateway/src/test/java
+2026-10-11 03:45:32,727 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-gateway/src/test/resources
+2026-10-11 03:45:33,270 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/main/java
+2026-10-11 03:45:33,271 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-10-11 03:45:33,271 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/main/resources
+2026-10-11 03:45:33,271 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eureka-server/src/test/java
+2026-10-11 03:45:33,273 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eureka-server/src/test/resources
+2026-10-11 03:45:33,828 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-citas/src/main/java
+2026-10-11 03:45:33,829 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/main/resources
+2026-10-11 03:45:33,829 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/main/resources
+2026-10-11 03:45:33,830 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-citas/src/test/java
+2026-10-11 03:45:33,831 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-citas/src/test/resources
+2026-10-11 03:45:34,272 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-notificaciones/src/main/java
+2026-10-11 03:45:34,273 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/main/resources
+2026-10-11 03:45:34,274 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/main/resources
+2026-10-11 03:45:34,274 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-notificaciones/src/test/java
+2026-10-11 03:45:34,275 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-notificaciones/src/test/resources
+2026-10-11 03:45:34,638 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-pacientes/src/main/java
+2026-10-11 03:45:34,639 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/main/resources
+2026-10-11 03:45:34,640 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/main/resources
+2026-10-11 03:45:34,640 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /microservicio-pacientes/src/test/java
+2026-10-11 03:45:34,641 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /microservicio-pacientes/src/test/resources
+2026-10-11 03:45:35,493 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 5 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 2.00 sec 
+2026-10-11 03:45:36,081 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,097 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,101 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\api-gateway\src\test\resources
+2026-10-11 03:45:36,679 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,695 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,699 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\eureka-server\src\test\resources
+2026-10-11 03:45:36,961 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,975 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 03:45:36,979 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 03:45:37,176 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 03:45:37,190 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 03:45:37,194 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-notificaciones\src\test\resources
+2026-10-11 03:45:37,577 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 03:45:37,594 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 03:45:37,599 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:32:04,916 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:32:04,928 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:32:04,933 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:32:15,238 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:32:15,241 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:32:15,244 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:33:02,699 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:33:02,702 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:33:02,705 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:33:07,863 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:33:07,865 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:33:07,867 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:33:34,260 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:33:34,262 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:33:34,265 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:33:38,994 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:33:38,998 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:33:39,003 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-pacientes\src\test\resources
+2026-10-11 04:36:25,678 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:36:25,685 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:36:25,689 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:36:28,897 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:36:28,900 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:36:28,902 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:36:59,775 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:36:59,778 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:36:59,780 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:37:05,018 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:37:05,021 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:37:05,023 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:37:33,140 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:37:33,143 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:37:33,146 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:37:37,639 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:37:37,642 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:37:37,644 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:38:04,105 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:38:04,110 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:38:04,113 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:38:12,086 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:38:12,101 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:38:12,106 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:38:55,297 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:38:55,304 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:38:55,307 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-notificaciones\src\test\resources
+2026-10-11 04:38:59,334 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-10-11 04:38:59,337 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:38:59,339 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-notificaciones\src\test\resources
+2026-10-11 04:41:18,506 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:41:18,507 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:41:18,510 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
+2026-10-11 04:41:27,175 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:41:27,176 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-10-11 04:41:27,178 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\TrabajosCibertec\EclipseTrabajados\DAW2-T2\DAW2_T2_FabianChachi\microservicio-citas\src\test\resources
