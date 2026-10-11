@@ -1,0 +1,24 @@
+server:
+  port: 9095
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: ruta-pacientes
+          uri: lb://MICROSERVICIO-PACIENTES
+          predicates:
+            - Path=/api/pacientes/**
+        - id: ruta-citas
+          uri: lb://MICROSERVICIO-CITAS
+          predicates:
+            - Path=/api/citas/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

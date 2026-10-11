@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: microservicio-pacientes
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/bd_hospital
+    username: root
+    password: 
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
