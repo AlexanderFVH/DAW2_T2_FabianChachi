@@ -1,0 +1,14 @@
+package daw2.t2.fabianchachi.citas;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.autoconfigure.data.r2dbc.R2dbcDataAutoConfiguration;
+import org.springframework.boot.autoconfigure.r2dbc.R2dbcAutoConfiguration;
+
+@SpringBootTest(exclude = {R2dbcAutoConfiguration.class, R2dbcDataAutoConfiguration.class})
+class MicroservicioCitasApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+}

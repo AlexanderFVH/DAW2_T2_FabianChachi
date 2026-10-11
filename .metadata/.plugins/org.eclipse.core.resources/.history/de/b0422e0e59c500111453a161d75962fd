@@ -1,0 +1,13 @@
+package daw2.t2.fabianchachi.citas;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MicroservicioCitasApplicationTests {
+
+    @Test
+    void contextLoads() {
+        // funciona bien
+    }
+}
