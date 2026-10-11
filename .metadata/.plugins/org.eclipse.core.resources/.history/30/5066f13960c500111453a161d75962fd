@@ -1,0 +1,16 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: microservicio-notificaciones
+  rabbitmq:
+    host: localhost
+    port: 5672
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    initial-instance-info-replication-interval-seconds: 10
+    registry-fetch-interval-seconds: 5

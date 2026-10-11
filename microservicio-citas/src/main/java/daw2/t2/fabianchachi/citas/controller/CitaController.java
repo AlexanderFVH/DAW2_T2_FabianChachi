@@ -23,7 +23,7 @@ public class CitaController {
 
     @PostMapping
     public Mono<ResponseEntity<Object>> registrarCita(@RequestBody Cita cita) {
-        // 1. Comunicación síncrona con microservicio-pacientes vía Eureka (Load Balanced)
+        // 1. Comunicación síncrona con microservicio-pacientes vía Eureka
         return webClientBuilder.build().get()
                 .uri("http://MICROSERVICIO-PACIENTES/api/pacientes/" + cita.getPacienteId())
                 .retrieve()
@@ -34,7 +34,7 @@ public class CitaController {
                     cita.setFechaCreacion(LocalDateTime.now());
                     return citaRepository.save(cita)
                             .doOnSuccess(citaGuardada -> {
-                                // 3. Comunicación asíncrona hacia RabbitMQ (con try-catch preventivo)
+                                // 3. Comunicación asíncrona
                                 try {
                                     rabbitTemplate.convertAndSend(
                                             RabbitMQConfig.EXCHANGE,
